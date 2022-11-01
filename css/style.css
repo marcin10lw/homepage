@@ -1,0 +1,27 @@
+html{
+    box-sizing: border-box; 
+}
+
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+
+.htmlNewColor{
+    color: white;
+}
+
+.body {
+    background-color: #faf8f8;
+    font-family: Roboto, Arial;
+}
+
+.bodyNewBackground{
+    background-color: #1c1c1c;
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 20px;
+}

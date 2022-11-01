@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__titleHeader {
+    font-weight: bold;
+}
+
+.header__select{
+    padding: 3px 6px;
+}

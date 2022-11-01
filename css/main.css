@@ -1,0 +1,43 @@
+.main{
+    border: 1px solid rgb(231, 203, 231);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 0 20px;
+}
+
+.main__section{
+    padding: 10px 0;
+}
+
+.main__paragraph{
+    line-height: 1.5;
+}
+
+.main__studio {
+    color: #4b4747;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main__studio--color{
+    color: #9aebee;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main__studio:focus{
+    outline: 2px solid black;
+}
+
+.main__studio:hover{
+    opacity: 0.8;
+}
+
+.main__studio:active{
+    opacity: 0.6;
+}
+
+.main__container{
+    overflow-x: auto;
+}
+
