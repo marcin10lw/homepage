@@ -1,22 +1,30 @@
-let select = document.querySelector(".js-header__select");
-let html = document.querySelector(".js-html");
-let body = document.querySelector(".js-body");
-let studio = document.querySelector(".js-studio");
-let navLinkAbout = document.querySelector(".js-navLinkAbout");
-let navLinkYouCode = document.querySelector(".js-navLinkYouCode");
-let navLinkInterests = document.querySelector(".js-navLinkInterests");
-let navLinkTable = document.querySelector(".js-navLinkTable");
-let navLinkSummary = document.querySelector(".js-navLinkSummary");
+{
+  const welcome = () => {
+    console.log("Witam wszystkich :)");
+  };
 
-select.addEventListener("change", () => {
-  html.classList.toggle("htmlNewColor");
-  body.classList.toggle("bodyNewBackground");
-  studio.classList.toggle("js-darkTheme");
-  navLinkAbout.classList.toggle("js-darkTheme");
-  navLinkYouCode.classList.toggle("js-darkTheme");
-  navLinkInterests.classList.toggle("js-darkTheme");
-  navLinkTable.classList.toggle("js-darkTheme");
-  navLinkSummary.classList.toggle("js-darkTheme");
-});
+  const onChangeBackgroundClick = () => {
+    const html = document.querySelector(".js-html");
+    const body = document.querySelector(".js-body");
+    const studio = document.querySelector(".js-studio");
+    const navLinkAbout = document.querySelector(".js-navLinkAbout");
+    const navLinkYouCode = document.querySelector(".js-navLinkYouCode");
+    const navLinkInterests = document.querySelector(".js-navLinkInterests");
+    const navLinkTable = document.querySelector(".js-navLinkTable");
+    const navLinkSummary = document.querySelector(".js-navLinkSummary");
 
-console.log("Witam gita! Podejście drugie");
+    html.classList.toggle("htmlNewColor");
+    body.classList.toggle("bodyNewBackground");
+    studio.classList.toggle("js-darkTheme");
+    navLinkAbout.classList.toggle("js-darkTheme");
+    navLinkYouCode.classList.toggle("js-darkTheme");
+    navLinkInterests.classList.toggle("js-darkTheme");
+    navLinkTable.classList.toggle("js-darkTheme");
+    navLinkSummary.classList.toggle("js-darkTheme");
+  };
+
+  welcome();
+
+  const select = document.querySelector(".js-header__select");
+  select.addEventListener("change", onChangeBackgroundClick);
+}
