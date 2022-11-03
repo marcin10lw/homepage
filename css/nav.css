@@ -17,11 +17,7 @@
     transition: color, 100ms;
 }
 
-.nav__link--about,
-.nav__link--youCode,
-.nav__link--interests,
-.nav__link--table,
-.nav__link--summary{
+.js-darkTheme{
     text-decoration: none;
     color: #9aebee;
     transition: color, 100ms;   

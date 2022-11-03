@@ -11,12 +11,12 @@ let navLinkSummary = document.querySelector(".js-navLinkSummary");
 select.addEventListener("change", () => {
   html.classList.toggle("htmlNewColor");
   body.classList.toggle("bodyNewBackground");
-  studio.classList.toggle("main__studio--color");
-  navLinkAbout.classList.toggle("nav__link--about");
-  navLinkYouCode.classList.toggle("nav__link--youCode");
-  navLinkInterests.classList.toggle("nav__link--interests");
-  navLinkTable.classList.toggle("nav__link--table");
-  navLinkSummary.classList.toggle("nav__link--summary");
+  studio.classList.toggle("js-darkTheme");
+  navLinkAbout.classList.toggle("js-darkTheme");
+  navLinkYouCode.classList.toggle("js-darkTheme");
+  navLinkInterests.classList.toggle("js-darkTheme");
+  navLinkTable.classList.toggle("js-darkTheme");
+  navLinkSummary.classList.toggle("js-darkTheme");
 });
 
 console.log("Witam gita! Podejście drugie");
