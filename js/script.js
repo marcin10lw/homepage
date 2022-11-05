@@ -3,7 +3,7 @@
     console.log("Witam wszystkich :)");
   };
 
-  const onChangeBackgroundClick = () => {
+  const onChangeBackgroundSelect = () => {
     const html = document.querySelector(".js-html");
     const body = document.querySelector(".js-body");
     const studio = document.querySelector(".js-studio");
@@ -26,5 +26,5 @@
   welcome();
 
   const select = document.querySelector(".js-header__select");
-  select.addEventListener("change", onChangeBackgroundClick);
+  select.addEventListener("change", onChangeBackgroundSelect);
 }
