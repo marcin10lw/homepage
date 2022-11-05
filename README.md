@@ -1,6 +1,5 @@
 # Marcin Augun - moja strona
 
-## Demo
+![Marcin](images/marcin.png "That's me")
 
-https://marcin10lw.github.io/homepage/
-
+[Here's a page about me](https://marcin10lw.github.io/homepage/)
