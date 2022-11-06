@@ -4,12 +4,12 @@
   };
 
   const onChangeThemeSelect = () => {
-    const toggleTheme = () => {
+    const toggleBodyTheme = () => {
       const body = document.querySelector(".js-body");
       body.classList.toggle("bodyDarkTheme");
     };
 
-    const linksDarkTheme = (link) => {
+    const toggleLinkTheme = (link) => {
       link.classList.toggle("link--darkTheme");
     };
 
@@ -30,16 +30,12 @@
         studio,
       ];
 
-      // darkThemeLinks.forEach(() => {
-
-      // });
-
-      for (i = 0; i < darkThemeLinks.length; i++) {
-        linksDarkTheme(darkThemeLinks[i]);
-      }
+      darkThemeLinks.forEach((link) => {
+        toggleLinkTheme(link);
+      });
     };
 
-    toggleTheme();
+    toggleBodyTheme();
     linksToPass();
   };
 
