@@ -4,11 +4,9 @@
   };
 
   const onChangeThemeSelect = () => {
-    const documentDarkTheme = () => {
-      const html = document.querySelector(".js-html");
+    const toggleTheme = () => {
       const body = document.querySelector(".js-body");
-      html.classList.toggle("htmlNewColor");
-      body.classList.toggle("bodyNewBackground");
+      body.classList.toggle("bodyDarkTheme");
     };
 
     const linksDarkTheme = (link) => {
@@ -38,7 +36,7 @@
     };
 
     linksToPass();
-    documentDarkTheme();
+    toggleTheme();
   };
 
   const init = () => {
