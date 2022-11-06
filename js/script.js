@@ -3,12 +3,6 @@
     console.log("Witam wszystkich :)");
   };
 
-  const init = () => {
-    welcome();
-  };
-
-  init();
-
   const onChangeThemeSelect = () => {
     const documentDarkTheme = () => {
       const html = document.querySelector(".js-html");
@@ -47,6 +41,11 @@
     documentDarkTheme();
   };
 
-  const select = document.querySelector(".js-header__select");
-  select.addEventListener("change", onChangeThemeSelect);
+  const init = () => {
+    welcome();
+    const select = document.querySelector(".js-header__select");
+    select.addEventListener("change", onChangeThemeSelect);
+  };
+
+  init();
 }
