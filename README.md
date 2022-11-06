@@ -4,7 +4,13 @@
 
 ## Hi everyone!
 
-This is my first bigger project, within the [YouCode](https://youcode.pl/zostawiam-maila/) course, where I introduce myself to the world. Nothing outstanding yet, but you gotta start somewhere.
+This is my first bigger project, where I introduce myself to the world. Nothing outstanding yet, but you gotta start somewhere.
+
+# YouCode
+
+This page is a task within [YouCode](https://youcode.pl/zostawiam-maila/).
+
+YouCode is a frontend development online school with great community.
 
 # Technologies used
 
