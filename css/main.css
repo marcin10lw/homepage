@@ -19,6 +19,12 @@
     font-weight: bold;
 }
 
+.js-darkTheme{
+    text-decoration: none;
+    color: #9aebee;
+    transition: color, 100ms;   
+}
+
 .main__studio--color{
     color: #9aebee;
     text-decoration: none;
