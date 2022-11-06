@@ -10,7 +10,7 @@
     };
 
     const linksDarkTheme = (link) => {
-      link.classList.toggle("js-darkTheme");
+      link.classList.toggle("link--darkTheme");
     };
 
     const linksToPass = () => {
@@ -30,13 +30,17 @@
         studio,
       ];
 
+      // darkThemeLinks.forEach(() => {
+
+      // });
+
       for (i = 0; i < darkThemeLinks.length; i++) {
         linksDarkTheme(darkThemeLinks[i]);
       }
     };
 
-    linksToPass();
     toggleTheme();
+    linksToPass();
   };
 
   const init = () => {

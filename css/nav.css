@@ -16,7 +16,7 @@
     transition: color, 100ms;
 }
 
-.js-darkTheme{
+.link--darkTheme{
     text-decoration: none;
     color: #9aebee;
     transition: color, 100ms;   
