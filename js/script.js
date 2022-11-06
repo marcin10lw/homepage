@@ -9,11 +9,7 @@
       body.classList.toggle("bodyDarkTheme");
     };
 
-    const toggleLinkTheme = (link) => {
-      link.classList.toggle("link--darkTheme");
-    };
-
-    const linksToPass = () => {
+    const getLinkElements = () => {
       const studio = document.querySelector(".js-studio");
       const navLinkAbout = document.querySelector(".js-navLinkAbout");
       const navLinkYouCode = document.querySelector(".js-navLinkYouCode");
@@ -21,7 +17,7 @@
       const navLinkTable = document.querySelector(".js-navLinkTable");
       const navLinkSummary = document.querySelector(".js-navLinkSummary");
 
-      const darkThemeLinks = [
+      return [
         navLinkAbout,
         navLinkYouCode,
         navLinkInterests,
@@ -29,14 +25,18 @@
         navLinkSummary,
         studio,
       ];
+    };
 
-      darkThemeLinks.forEach((link) => {
-        toggleLinkTheme(link);
+    const toggleLinksTheme = () => {
+      const linkElements = getLinkElements();
+
+      linkElements.forEach((linkElement) => {
+        linkElement.classList.toggle("link--darkTheme");
       });
     };
 
     toggleBodyTheme();
-    linksToPass();
+    toggleLinksTheme();
   };
 
   const init = () => {
