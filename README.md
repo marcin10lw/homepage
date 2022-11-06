@@ -6,7 +6,13 @@
 
 This is my first bigger project, within the [YouCode](https://youcode.pl/zostawiam-maila/) course, where I introduce myself to the world. Nothing outstanding yet, but you gotta start somewhere.
 
-# Small content preview
+# Technologies used
+
+    -BEM
+    -FLEXBOX
+    -ES6+ Features
+
+# Content preview
 
 ## My favourite tracks:
 
