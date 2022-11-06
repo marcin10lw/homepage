@@ -20,4 +20,4 @@ This is my first bigger project, within the [YouCode](https://youcode.pl/zostawi
 
 ## Check it out!
 
-[![N|Solid](gifs/aboutGif.gif)](https://marcin10lw.github.io/homepage/)
+[![N|Solid](images/readmeIcon.png)](https://marcin10lw.github.io/homepage/)
