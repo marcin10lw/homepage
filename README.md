@@ -14,6 +14,10 @@ This is my first bigger project, within the [YouCode](https://youcode.pl/zostawi
 
 # Content preview
 
+## Quick look
+
+![homepagePreview](gifs/homepagePreview.gif)
+
 ## My favourite tracks:
 
 | Title                                                                     | Band      | Album               | Year |
