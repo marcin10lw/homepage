@@ -1,6 +1,6 @@
 # Marcin Augun - "About me" page
 
-![Marcin](images/marcin.png "That's me")
+![Marcin](images/pictureOfMe.png "That's me")
 
 ## Hi everyone!
 
