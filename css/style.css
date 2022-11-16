@@ -9,6 +9,7 @@ html{
 .body {
     background-color: #faf8f8;
     font-family: Roboto, Arial;
+    transition: background-color 250ms, color 250ms;
 }
 
 .bodyDarkTheme{

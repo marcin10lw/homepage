@@ -34,15 +34,17 @@
       <header class="header">
         <h1 class="header__titleHeader">Marcin Augun</h1>
         <div>
-          <label for="theme">Wybierz motyw </label>
-          <select
-            class="header__select js-header__select"
-            name="selectTheme"
+          <label class="header__label js-label" for="theme">
+            <div class="header__ball js-ball"></div>
+          </label>
+          <input
+            type="checkbox"  
+            class="header__checkBox js-header__checkBox"
+            name="changeTheme"
             id="theme"
           >
-            <option value="jasny">jasny</option>
-            <option value="cielmy">ciemny</option>
-          </select>
+            
+        </input>
         </div>
       </header>
 

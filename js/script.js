@@ -3,7 +3,7 @@
     console.log("Witam wszystkich :)");
   };
 
-  const onChangeThemeSelect = () => {
+  const onChangeThemeCheckbox = () => {
     const toggleBodyTheme = () => {
       const body = document.querySelector(".js-body");
       body.classList.toggle("bodyDarkTheme");
@@ -35,14 +35,28 @@
       });
     };
 
+    const toggleLabelTheme = () => {
+      const labelElement = document.querySelector(".js-label");
+
+      labelElement.classList.toggle("header__label--darkTheme");
+    };
+
+    const toggleBallTheme = () => {
+      const ballElement = document.querySelector(".js-ball");
+
+      ballElement.classList.toggle("header__ball--darkTheme");
+    };
+
     toggleBodyTheme();
     toggleLinksTheme();
+    toggleLabelTheme();
+    toggleBallTheme();
   };
 
   const init = () => {
     welcome();
-    const select = document.querySelector(".js-header__select");
-    select.addEventListener("change", onChangeThemeSelect);
+    const checkboxElement = document.querySelector(".js-header__checkBox");
+    checkboxElement.addEventListener("change", onChangeThemeCheckbox);
   };
 
   init();
