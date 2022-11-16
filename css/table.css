@@ -22,6 +22,14 @@
     color: rgb(255, 255, 255);
 }
 
+.table__header--darkTheme {
+    background-color: #4d8283;
+}
+
+.table__row:hover {
+    opacity: 0.96;
+}
+
 .table__row:nth-child(odd){
     background-color: #f3cded;
 }
@@ -30,8 +38,12 @@
     background-color: #e9dbe7;
 }
 
-.table__row:hover{
-    background-color: #e4c5e0;
+.table__row--darkTheme:nth-child(odd){
+    background-color: #a3c9ca;
+}
+
+.table__row--darkTheme:nth-child(even){
+    background-color: #cde6e7;
 }
 
 .table__link{

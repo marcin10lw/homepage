@@ -5,6 +5,10 @@
     padding: 0 20px;
 }
 
+.main--darkTheme{
+    border: 1px solid #295c5e;
+}
+
 .main__section{
     padding: 10px 0;
 }
