@@ -23,16 +23,10 @@
     font-weight: bold;
 }
 
-.link--darkTheme{
+.main__link--darkTheme{
     text-decoration: none;
     color: #9aebee;
     transition: color, 100ms;   
-}
-
-.main__link--color{
-    color: #9aebee;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 .main__link:focus{

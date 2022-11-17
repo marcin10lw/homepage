@@ -9,11 +9,17 @@
       body.classList.toggle("bodyDarkTheme");
     };
 
-    const toggleLinksTheme = () => {
+    const toggleNavigationTheme = () => {
       const navigationLinks = document.querySelectorAll(".js-link");
+      const navigationListElements =
+        document.querySelectorAll(".js-listElement");
 
       for (link of navigationLinks) {
         link.classList.toggle("link--darkTheme");
+      }
+
+      for (listElement of navigationListElements) {
+        listElement.classList.toggle("nav__listElement--darkTheme");
       }
     };
 
@@ -53,12 +59,16 @@
 
     const toggleMainTheme = () => {
       const mainElement = document.querySelector(".js-main");
+      const mainLinkElements = document.querySelectorAll(".js-mainLink");
 
       mainElement.classList.toggle("main--darkTheme");
+      for (mainLink of mainLinkElements) {
+        mainLink.classList.toggle("main__link--darkTheme");
+      }
     };
 
     toggleBodyTheme();
-    toggleLinksTheme();
+    toggleNavigationTheme();
     toggleLabelTheme();
     toggleBallTheme();
     toggleTableHeadersTheme();

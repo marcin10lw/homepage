@@ -29,9 +29,17 @@
     background-color: hsl(300, 37%, 88%);
 }
 
+.nav__listElement--darkTheme {
+    background-color: hsl(182, 33%, 61%);
+}
+
+.nav__listElement--darkTheme:hover{
+    background-color: hsl(182, 33%, 53%);
+}
+
 .nav__link{
     text-decoration: none;
-    color: #7c6c6c;
+    color: #838383;
     transition: color, 100ms;
     width: 100%;
     display: flex;
@@ -42,19 +50,5 @@
 }
 
 .link--darkTheme{
-    text-decoration: none;
-    color: #9aebee;
-    transition: color, 100ms;   
-}
-
-.nav__link:focus{
-    outline: 1px solid black;
-}
-
-.nav__link:hover{
-    opacity: 0.7;
-}
-
-.nav__link:active{
-    opacity: 0.5;
+    color: white;
 }
