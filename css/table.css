@@ -26,24 +26,28 @@
     background-color: #4d8283;
 }
 
-.table__row:hover {
-    opacity: 0.96;
-}
-
 .table__row:nth-child(odd){
-    background-color: #f3cded;
+    background-color: hsl(309, 61%, 88%);
 }
 
 .table__row:nth-child(even){
-    background-color: #e9dbe7;
+    background-color: #dbb5d5;
 }
 
 .table__row--darkTheme:nth-child(odd){
-    background-color: #a3c9ca;
+    background-color: hsl(182, 27%, 72%);
 }
 
 .table__row--darkTheme:nth-child(even){
     background-color: #cde6e7;
+}
+
+.table__row:hover{
+    background-color: hsl(309, 61%, 84%);
+}
+
+.table__row--darkTheme:hover{
+    background-color: hsl(182, 27%, 68%);
 }
 
 .table__link{
