@@ -10,3 +10,7 @@
 .footer--darkTheme {
     background-color: #295c5e;
 }
+
+.footer__paragraph {
+    font-size: 14px;
+}

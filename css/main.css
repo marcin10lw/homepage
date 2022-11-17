@@ -17,7 +17,7 @@
     line-height: 1.5;
 }
 
-.main__studio {
+.main__link {
     color: #4b4747;
     text-decoration: none;
     font-weight: bold;
@@ -29,21 +29,22 @@
     transition: color, 100ms;   
 }
 
-.main__studio--color{
+.main__link--color{
     color: #9aebee;
     text-decoration: none;
     font-weight: bold;
 }
 
-.main__studio:focus{
+.main__link:focus{
     outline: 2px solid black;
 }
 
-.main__studio:hover{
+.main__link:hover{
     opacity: 0.8;
+    text-decoration: underline;
 }
 
-.main__studio:active{
+.main__link:active{
     opacity: 0.6;
 }
 
