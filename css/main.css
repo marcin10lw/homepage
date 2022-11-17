@@ -18,15 +18,9 @@
 }
 
 .main__link {
-    color: #4b4747;
+    color: hsl(300, 37%, 65%);
     text-decoration: none;
     font-weight: bold;
-}
-
-.main__link--darkTheme{
-    text-decoration: none;
-    color: #9aebee;
-    transition: color, 100ms;   
 }
 
 .main__link:focus{
@@ -34,7 +28,7 @@
 }
 
 .main__link:hover{
-    opacity: 0.8;
+    color: hsl(300, 37%, 55%);
     text-decoration: underline;
 }
 
@@ -46,3 +40,12 @@
     overflow-x: auto;
 }
 
+.main__link--darkTheme{
+    text-decoration: none;
+    color: #9aebee;
+    transition: color, 100ms;   
+}
+
+.main__link--darkTheme:hover {
+    color: hsl(182, 71%, 62%);
+}
