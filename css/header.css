@@ -15,9 +15,10 @@
     height: 26px;
     border-radius: 50px;
     padding: 5px;
-    background-color: hsl(300, 37%, 85%);
+    background-color: #e7cbe7;
     position: relative;
     transition: background-color 500ms;
+    cursor: pointer;
 }
 
 .header__label--darkTheme {

@@ -5,15 +5,40 @@
 
 .nav__unorderedList{
     padding: 0;
+    margin: 0;
     display: flex;
-    justify-content: space-between;
-    gap: 2%;
+    align-items: center;
+    gap: 10px;
+}
+
+@media(max-width: 767px) {
+    .nav__unorderedList {
+        flex-wrap: wrap;
+    }
+}
+
+.nav__listElement{
+    list-style: none;
+    background-color: hsl(300, 37%, 90%);
+    border-radius: 6px;
+    flex-basis: 25%;
+    flex-grow: 1;
+}
+
+.nav__listElement:hover{
+    background-color: hsl(300, 37%, 88%);
 }
 
 .nav__link{
     text-decoration: none;
     color: #7c6c6c;
     transition: color, 100ms;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    white-space: nowrap;
 }
 
 .link--darkTheme{
@@ -32,9 +57,4 @@
 
 .nav__link:active{
     opacity: 0.5;
-}
-
-.nav__listElement{
-    list-style: none;
-    text-align: center;
 }
