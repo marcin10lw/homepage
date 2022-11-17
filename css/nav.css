@@ -23,10 +23,12 @@
     border-radius: 6px;
     flex-basis: 25%;
     flex-grow: 1;
+    transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav__listElement:hover{
     background-color: hsl(300, 37%, 88%);
+    transform: scale(0.96);
 }
 
 .nav__listElement--darkTheme {
@@ -39,7 +41,7 @@
 
 .nav__link{
     text-decoration: none;
-    color: #838383;
+    color: #616161;
     transition: color, 100ms;
     width: 100%;
     display: flex;
