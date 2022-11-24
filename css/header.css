@@ -18,7 +18,7 @@
     background-color: #e7cbe7;
     position: relative;
     transition: background-color 500ms;
-    cursor: pointer;
+    transition-delay: 150ms;
 }
 
 .header__label--darkTheme {
@@ -33,11 +33,11 @@
     position: absolute;
     top: 2px;
     left: 2px;
-    transition: transform 250ms linear;
+    transition: transform 250ms linear, background-color 150ms;
 }
 
 .header__ball--darkTheme {
-    background: #1c1c1c;
+    background-color: #1c1c1c;
     right: 2px;
     transform: translateX(24px);
 }
